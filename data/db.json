@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    {
+      "input": "My First try",
+      "id": 1
+    },
+    {
+      "input": "My Second try",
+      "id": 2
+    },
+    {
+      "input": "My Third try",
+      "id": 3
+    },
+    {
+      "input": "hello world",
+      "id": 4
+    },
+    {
+      "input": "hello world",
+      "id": 5
+    },
+    {
+      "input": "hello world",
+      "id": 6
+    },
+    {
+      "input": "hello, post method is done now",
+      "id": 7
+    },
+    {
+      "input": "i am happy now",
+      "id": 8
+    }
+  ]
+}
