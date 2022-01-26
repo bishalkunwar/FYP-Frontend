@@ -22,7 +22,32 @@ const Navbar = () => {
                 backgroundColor: '#f1356d',
                 borderRadius: '8px'
             }
-        } > Service < /Link> < /
+        } > Service < /Link>
+
+        <
+        Link to = "/signup"
+        style = {
+            {
+                color: 'white',
+                backgroundColor: '#808080',
+                borderRadius: '8px'
+            }
+        } > Signup < /Link>
+
+        <
+        Link to = "/signin"
+        style = {
+            {
+                color: 'white',
+                backgroundColor: '#808080',
+                borderRadius: '8px'
+            }
+        } > Signin < /Link>
+
+
+
+        <
+        /
         div > <
         /nav>
     );

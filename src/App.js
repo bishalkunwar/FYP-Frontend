@@ -4,23 +4,42 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./Create";
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/create">
-              <Create />
-            </Route>
-          </Switch>
-        </div>
-      </div>
-    </Router>
-  );
+    return ( <
+        Router >
+        <
+        div className = "App" >
+        <
+        Navbar / >
+        <
+        div className = "content" >
+        <
+        Switch >
+        <
+        Route exact path = "/" >
+        <
+        Home / >
+        <
+        /Route> <
+        Route path = "/create" >
+        <
+        Create / >
+        <
+        /Route> <
+        Route path = "/signup" >
+        <
+        Create / >
+        <
+        /Route> <
+        Route path = "/signin" >
+        <
+        Create / >
+        <
+        /Route> <
+        /Switch> <
+        /div> <
+        /div> <
+        /Router>
+    );
 }
 
 export default App;
